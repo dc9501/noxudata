@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-slate-0: #ffffff; /* white */
+  --clr-slate-100: #F1F5F9; /* blue */ 
+  --clr-slate-300: #CBD5E1; /* lightest gray */
+  --clr-slate-400: #94A3B8; /* lighter gray */
+  --clr-slate-500: #64748B; /* light gray */
+  --clr-slate-600: #475569; /* mid gray */
+  --clr-slate-900: #0F172A; /* dark gray */
+  --clr-red: #DC2626;
+  --clr-orange: #F0671A;
+
+  --fs-body: 1rem;
+}
